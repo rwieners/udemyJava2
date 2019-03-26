@@ -4,8 +4,8 @@ public class Programm {
 
 	public static void main(String[] args) {
 	
-		Dog hund = new Dog();
-		Cat Katze = new Cat();
+		Dog hund = new Dog("Blau");
+
 		
 		hund.sleep();
 		hund.bark();
