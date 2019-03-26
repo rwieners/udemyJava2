@@ -9,11 +9,7 @@ public class Programm {
 		
 		hund.sleep();
 		hund.bark();
-		
-		Katze.color = "schwarz";
-		
-		System.out.println(Katze.color);
-
+		hund.sayColor();
 	}
 
 }

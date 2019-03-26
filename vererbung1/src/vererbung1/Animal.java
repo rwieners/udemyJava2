@@ -4,7 +4,7 @@ public class Animal {
 
 	String name;
 	int age;
-	String color;
+	protected String color;
 	String favFood;
 	
 	public void sleep(){
