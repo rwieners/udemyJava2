@@ -8,7 +8,7 @@ public class Dog extends Animal{
 	}
 	
 	public void sayColor(){
-		System.out.println("Farbe: " + color);
+		System.out.println("Farbe: " + this.getColor());
 	}
 
 }
