@@ -3,13 +3,15 @@ package vererbung1;
 public class Dog extends Animal{
 	
 	
-	//Konstruktor
-	public Dog(String color){
-		super(color);
+	
+	
+	
+	
+	public Dog() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
-	
-	
-	
+
 	//Methoden
 	public void bark(){
 		

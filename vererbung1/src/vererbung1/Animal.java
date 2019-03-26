@@ -7,13 +7,24 @@ public class Animal {
 	private String color = "braun";
 	String favFood;
 	
-	//Konstruktor
-	public Animal(String color){
-		this.color = color;
-	}
+
 	
 	
 	//Methoden
+	
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public void move(){
+		
+		System.out.println("Geschwindigkeit 10km/h");
+	}
+	
+	
+	
 	public void sleep(){
 		System.out.println("Ich schlafe");
 	}

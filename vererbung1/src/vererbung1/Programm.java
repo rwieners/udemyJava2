@@ -4,12 +4,14 @@ public class Programm {
 
 	public static void main(String[] args) {
 	
-		Dog hund = new Dog("Blau");
-
+		Dog hund = new Dog();
+		Tiger tiger = new Tiger();
+		Cat katze = new Cat();
 		
-		hund.sleep();
-		hund.bark();
-		hund.sayColor();
+		hund.move();
+		tiger.move();
+		katze.move();
+		
 	}
 
 }
